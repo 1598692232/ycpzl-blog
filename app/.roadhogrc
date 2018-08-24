@@ -1,0 +1,32 @@
+{
+  "entry": "src/index.js",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ],
+      "sass": true,
+      "proxy": {
+        "/": {
+          "target": "http://www.uxinyue.com:81/api",
+          "changeOrigin": true,
+          "pathRewrite": { "^/api" : "" }
+        }
+      },
+      "disableCSSModules": true
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ],
+      "hash": true,
+      "sass": true,
+      "outputPath": "./dist",
+      "publicPath": "./",
+      "disableCSSModules": true
+    }
+  }
+}
