@@ -1,0 +1,27 @@
+.yb-header{
+    // height: 48px;
+    width: 1032px;
+    padding:10px 15px;
+    margin:0 auto;
+
+    h1{
+        line-height: 48px;
+        margin:0;
+        text-align: center;
+    }
+}
+
+.header-wraper{
+    box-shadow: 0 1px 3px 1px #ddd;
+}
+
+.ant-menu-horizontal{
+    border: 0;
+}
+
+.search-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+}
