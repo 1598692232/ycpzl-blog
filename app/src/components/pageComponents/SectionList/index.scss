@@ -1,0 +1,29 @@
+.yc-section-li{
+    margin-bottom: 10px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    cursor: pointer;
+
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.6;
+        color: #1a1a1a;
+    }
+
+    .desc{
+        word-break: break-word;
+        line-height: 1.6;
+    }
+}
+
+.yc-list-loading{
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+}

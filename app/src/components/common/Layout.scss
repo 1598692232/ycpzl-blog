@@ -1,18 +1,23 @@
 .yb-header{
     // height: 48px;
     width: 1032px;
-    padding:10px 15px;
+    padding:10px 0;
     margin:0 auto;
 
     h1{
         line-height: 48px;
         margin:0;
-        text-align: center;
+        // text-align: center;
     }
 }
 
+body{
+    background: #f6f6f6;
+}
+
 .header-wraper{
-    box-shadow: 0 1px 3px 1px #ddd;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
 }
 
 .ant-menu-horizontal{
@@ -24,4 +29,27 @@
     justify-content: flex-end;
     align-items: center;
     height: 48px;
+}
+
+.yb-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1032px;
+    margin: 10px auto;
+}
+
+.yc-section{
+    flex:1;
+    margin-right: 10px;
+}
+
+.yc-side{
+    width: 296px;
+    margin-bottom: 10px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    box-sizing: border-box;
+    padding: 8px 20px;
 }

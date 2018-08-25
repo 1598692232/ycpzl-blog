@@ -1,5 +1,7 @@
 import React, {PureComponent, Fragment} from 'react';
 import { Menu, Icon, Row, Col, Input  } from 'antd';
+import SectionList from '../pageComponents/SectionList';
+import Side from '../pageComponents/Side';
 import './Layout.scss';
 
 const SubMenu = Menu.SubMenu;
@@ -59,7 +61,13 @@ export default class Layout extends PureComponent {
                 </div>
                     
                 <Row className="yb-container">
-                    {this.props.children}
+                    <div className="yc-section">
+                        <SectionList />
+                    </div>
+                    
+                    <div className="yc-side">
+                        <Side />
+                    </div>
                 </Row>
             </div>
         );
