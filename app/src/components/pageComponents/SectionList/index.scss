@@ -7,6 +7,11 @@
     box-sizing: border-box;
     padding: 16px 20px;
     cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+
+    &:hover{
+        box-shadow: 0 1px 20px 3px rgba(26,26,26,.1);
+    }
 
     h2{
         font-size: 18px;

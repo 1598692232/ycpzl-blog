@@ -42,9 +42,10 @@ export default class Layout extends PureComponent {
                                 <Menu.Item key="demo">
                                     <span>Demo</span>
                                 </Menu.Item>
-                                <Menu.Item key="exp">
-                                    <span>正则</span>
-                                </Menu.Item>
+                                <SubMenu title={<span>正则</span>}>
+                                    <Menu.Item key="tech">笔记</Menu.Item>
+                                    <Menu.Item key="exp">表达式</Menu.Item>
+                                </SubMenu>
                             </Menu>
                         </Col>
                         <Col span={6}>
