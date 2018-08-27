@@ -10,7 +10,7 @@ import './index.scss';
 
 const list = () => {
     let sl = [];
-    for(let i = 0; i < 40; i++) {
+    for(let i = 0; i < 10; i++) {
         sl.push({
             key: i,
             title: '在生活中你是否有开廉价车时被歧视的经历？',
